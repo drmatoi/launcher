@@ -35,7 +35,7 @@ echo -e " $Yellow || $Purple==>️$Cyan[000] Launcher Information$Yellow     "
 echo -e " $Yellow || $Purple==>$Cyan[111] Developer Information$Yellow    "
 echo -e " $Yellow || $Purple==>$Cyan[222] Update Launcher$Yellow          "
 echo -e " $Yellow || $Purple==>$Cyan[123] Download Setup$Yellow
-echo -e " $Yellow || $Purple==>$Cyan[666] Legal Warning$Yellow          "          "
+echo -e " $Yellow || $Purple==>$Cyan[666] Legal Warning$Yellow          "          
 echo -e " $Yellow || $Purple==>$Cyan[333] Exit Launcher$Yellow            "
 echo -e " $Yellow                                                       ||"                                                                                       
 echo -e " $Yellow ||--------------$Cyan [select option] $Yellow-----------||"
