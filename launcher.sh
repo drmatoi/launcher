@@ -9,13 +9,13 @@ Blue="\033[1;34m"        # Blue
 Purple="\033[1;35m"      # Purple
 Cyan="\033[1;36m"        # Cyan
 White="\033[1;37m"       # White
-
+clear 
 echo " "
   
     echo -e "$Red             ⫸$Purple M4T01 LAUNCHER$Red ⫷\033[0m"
     
 echo " "
-echo -e " $Yellow ||------------------------------------------------------||"
+
 echo -e " $Yellow ||-----------$Cyan Launcher Version 1.0 $Yellow---------||"
 echo -e " $Yellow ||                                                      ||"
 echo -e " $Yellow || $Purple==>$Cyan [001] m4t01´s Insta-Hack$Yellow      ||"
@@ -25,7 +25,7 @@ echo -e " $Yellow || $Purple==>$Cyan[222] Update Launcher$Yellow          ||"
 echo -e " $Yellow || $Purple==>$Cyan[333] Exit Launcher$Yellow            ||"
 echo -e " $Yellow ||                                                      ||"                                                                                       
 echo -e " $Yellow ||--------------$Cyan [select option] $Yellow-----------||"
-echo -e " $Yellow ||------------------------------------------------------||"
+
 echo " "
 
  read ch
