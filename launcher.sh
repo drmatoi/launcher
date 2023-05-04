@@ -58,10 +58,9 @@ echo " "
 
         exit
 
-    elif [ $ch -eq legal ];then 
+    elif [ $ch -eq 0000 ];then 
          git clone https://github.com/drmatoi/instahacks 
          cd instahacks 
-        
          bash start.sh 
   
          exit
