@@ -8,6 +8,8 @@
 * `pkg install git`
 * `git clone https://github.com/drmatoi/launcher`
 * `ls`
+* * `pip3 install -r requirements.txt`
+* `chmod +x *`
 * `cd launcher`
 * `bash launcher.sh`
 
