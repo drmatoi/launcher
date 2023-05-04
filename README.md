@@ -1,4 +1,6 @@
-# M4T01 Launcher - Version 1.o
+# M4t01 Launcher - Version 1.0
+Access to all tools and skripts made by Matoi and over 380+ other tools!
+All in one skript with auto-install for all things you need!
 ## INSTALLATION [Termux]
 
 * `apt update`
