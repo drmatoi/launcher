@@ -94,5 +94,4 @@ echo " "
     else
         echo -e "\e[4;32m Invalid Input !!! \e[0m"
         pause
-    fi
-done
+   
