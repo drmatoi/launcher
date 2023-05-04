@@ -43,9 +43,10 @@ echo " "
 
  read ch
    if [ $ch -eq 001 ];then
-       cd $HOME
+        cd $HOME
         git clone https://github.com/drmatoi/instahacks
         cd instahacks
+        bash setup.sh
         bash insta-hack.sh
 
         exit
@@ -56,10 +57,12 @@ echo " "
         exit
     elif [ $ch -eq 111 ];then
         echo "Developed by m4t01 / github.com/drmatoi
+        cd $HOME
         exit
         
    elif [ $ch -eq 222 ];then
        echo "Developed by m4t01 / github.com/drmatoi
+       cd $HOME
      
         exit
         
