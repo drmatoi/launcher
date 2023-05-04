@@ -157,7 +157,7 @@ Instagram: @wecrywiki
         exit
 elif [ $ch -eq 666 ];then
         clear
-echo "
+echo -e"
 ⠀⠀⠀⣠⣴⡶⠿⠿⠿⠷⣶⣄⡀⠀⠀⠀⠀⠀⠀⠀⢀⣤⣶⣦⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⣠⡾⠋⠁⠀⠀⠀⠀⠀⠀⠙⢿⣦⠀⠀⠀⠀⠀⠀⣿⡇⠀⠀⠙⢿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⢰⡿⠁⠀⠀⢠⣾⡆⠀⢰⣶⠀⠀⢻⣧⠀⠀⠀⠀⠀⠘⢷⣄⠀⠀⣼⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -193,7 +193,7 @@ echo "
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠿⢷⣾⠟⠀⠀⠀⠀⠀⠉⠉⠉⠉⠁⠀⠀⠻⣿⣄⡀⠈⠉⣿⡄⠀⠀⠀⠈⠙ ⠛⠛⠛⠁⠀⠀⠀⠀⠀⠙ ⠛⠿⠿⠛⠁⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠻⢷⣶⡿⠃⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 '
-echo "We are not responsible for any damage caused by this tool. Use for educational purposes only and at your own risk"
+echo -e "We are not responsible for any damage caused by this tool. Use for educational purposes only and at your own risk"
     
  
 
