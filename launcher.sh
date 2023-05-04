@@ -81,11 +81,11 @@ echo " "
         git clone https://github.com/drmatoi/instahacks
         cd instahacks
         bash setup.sh
-
-        exit
-       
-       else
-        echo -e "\e[4;32m Invalid! Enter something else !!! \e[0m"
+        
+         exit
+        
+    else
+        echo -e "\e[4;32m Invalid Input !!! \e[0m"
         pause
     fi
 done
