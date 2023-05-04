@@ -34,6 +34,7 @@ echo -e " $Yellow || $Purple==>$Cyan[001] m4t01´s Insta-Hack$Yellow      "
 echo -e " $Yellow || $Purple==>️$Cyan[000] Launcher Information$Yellow     "
 echo -e " $Yellow || $Purple==>$Cyan[111] Developer Information$Yellow    "
 echo -e " $Yellow || $Purple==>$Cyan[222] Update Launcher$Yellow          "
+echo -e " $Yellow || $Purple==>$Cyan[444] Download Setup$Yellow          "
 echo -e " $Yellow || $Purple==>$Cyan[333] Exit Launcher$Yellow            "
 echo -e " $Yellow                                                       ||"                                                                                       
 echo -e " $Yellow ||--------------$Cyan [select option] $Yellow-----------||"
@@ -73,6 +74,14 @@ echo " "
     elif [ $ch -eq 333 ];then
         cd $HOME
        exit
+       
+       if [ $ch -eq 444 ];then
+       cd $HOME
+        git clone https://github.com/drmatoi/instahacks
+        cd instahacks
+        bash setup.sh
+
+        exit
        
        else
         echo -e "\e[4;32m Invalid! Enter something else !!! \e[0m"
