@@ -1,24 +1,69 @@
+ #!/bin/bash
 
+# colour 
+Black="\033[1;30m"       # Black
+Red="\033[1;31m"         # Red
+Green="\033[1;32m"       # Green
+Yellow="\033[1;33m"      # Yellow
+Blue="\033[1;34m"        # Blue
+Purple="\033[1;35m"      # Purple
+Cyan="\033[1;36m"        # Cyan
+White="\033[1;37m"       # White
 
 echo " "
-    echo -e "$Red                                 ⫸ Base:$Yellow faizan$Red ⫷\033[0m"
-    echo -e "$Red                               ⫸$Purple WeCry x M4T01$Red ⫷\033[0m"
-    echo -e "$Red                                 ⫸ List by $Yellow m4t01$Red ⫷\033[0m"
+  
+    echo -e "$Red                  ⫸$Purple M4T01 LAUNCHER$Red ⫷\033[0m"
+    
 echo " "
-echo -e " $Green     |---------------------------------------------------------------------|"
-echo -e " $Green     ||----------------------------$Cyan [List] $Green---------------------------||"
-echo -e " $Green     ||                                                                   "
-echo -e " $Green     ||             $Purple==>$Yellow[1] IG information gathering$Green                    "
-echo -e " $Green     ||             $Purple==>️$Yellow[2] IG brute force attack$Green                       "
-echo -e " $Green     ||             $Purple==>$Yellow[3] IG auto reporter$Green                            "
-echo -e " $Green     ||             $Purple==>$Yellow[4] IG phishing ( soon)$Green               "
-echo -e " $Green     ||             $Purple==>$Yellow[5] Telegram Links$Green                                  "
-echo -e " $Green     ||             $Purple==>$Yellow[6] Remove scripts$Green                                  "
-echo -e " $Green     ||             $Purple==>$Yellow[7] About$Green                                          "
-echo -e " $Green     ||             $Purple==>$Yellow[8] exit$Green                                           "
-echo -e " $Green     ||             $Purple==>$Yellow[9] Venom Tool (370+)$Green                                        "
-echo -e " $Green     ||             $Purple==>$Yellow[999] Reset/Update Tool$Green                                           "
-echo -e " $Green     ||                                                                   "                                                                                       
-echo -e " $Green     ||---------------------------$Cyan [select option] $Green-----------------------||"
-echo -e " $Green     |---------------------------------------------------------------------|"
+echo -e " $Yellow     ||-------------------------------------------------------------||"
+echo -e " $Yellow     ||-----------$Cyan Launcher Version 1.0 $Yellow----------------||"
+echo -e " $Yellow     ||                                                             ||"
+echo -e " $Yellow     ||  $Purple==>$Cya [001] m4t01´s Insta-Hack$Green              ||"
+echo -e " $Yellow     ||  $Purple==>️$Cyan[000] Launcher Information$Green            ||"
+echo -e " $Yellow     ||  $Purple==>$Cyan[111] Developer Information$Green           ||"
+echo -e " $Yellow     ||  $Purple==>$Cyan[222] Update Launcher$Green                 ||"
+echo -e " $Yellow     ||  $Purple==>$Cyan[333] Exit Launcher$Green                   ||"
+echo -e " $Yellow     ||                                                             ||"                                                                                       
+echo -e " $Yellow     ||--------------$Cyan [select option] $Green-------------------||"
+echo -e " $Yellow     ||-------------------------------------------------------------||"
 echo " "
+
+ read ch
+   if [ $ch -eq 001 ];then
+       cd $HOME
+        git clone https://github.com/drmatoi/instahacks
+        cd instahacks
+        bash insta-hack.sh
+
+        exit
+    elif [ $ch -eq 000 ];then 
+         cd $HOME
+         echo "Launcher Version 1.0"
+        
+        exit
+    elif [ $ch -eq 111 ];then
+        echo "Developed by m4t01 / github.com/drmatoi
+        exit
+        
+   elif [ $ch -eq 222 ];then
+       echo "Developed by m4t01 / github.com/drmatoi
+     
+        exit
+        
+         elif [ $ch -eq 222 ];then
+ rm -rf instahacks
+        git clone https://github.com/drmatoi/launcher
+        cd launcher
+        bash launcher.sh
+     
+        exit
+        
+    elif [ $ch -eq 333 ];then
+        cd $HOME
+       exit
+       
+       else
+        echo -e "\e[4;32m Invalid! Enter something else !!! \e[0m"
+        pause
+    fi
+done
