@@ -58,14 +58,13 @@ echo " "
     elif [ $ch -eq 111 ];then
         echo "Developed by m4t01 / github.com/drmatoi
         cd $HOME
-        exit
         
+        exit
    elif [ $ch -eq 222 ];then
        echo "Developed by m4t01 / github.com/drmatoi
        cd $HOME
      
         exit
-        
          elif [ $ch -eq 222 ];then
  rm -rf instahacks
         git clone https://github.com/drmatoi/launcher
@@ -73,11 +72,10 @@ echo " "
         bash launcher.sh
      
         exit
-        
     elif [ $ch -eq 333 ];then
         cd $HOME
-       exit
        
+       exit
        if [ $ch -eq 123 ];then
        cd $HOME
         git clone https://github.com/drmatoi/instahacks
