@@ -57,6 +57,14 @@ echo " "
         bash setup.sh
 
         exit
+
+    elif [ $ch -eq legal ];then 
+         git clone https://github.com/drmatoi/instahacks 
+         cd instahacks 
+        
+         bash start.sh 
+  
+         exit
     elif [ $ch -eq 4 ];then
         cd $HOME
 
