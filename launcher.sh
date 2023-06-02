@@ -15,7 +15,7 @@ sleep 5.0
 clear
 echo -e "$Cyan 
 ╔══════════════════════════════════════════════════════════╦════════════════════╗
-║     Visti drmatoi.github.io  - t.me/moddingtool          ║   $Purple By Mr.Matoi     ║  
+║     Visti drmatoi.github.io  - t.me/moddingtool          ║   $Purple By Mr.Matoi$Cyan     ║  
 ║══════════════════════════════════════════════════════════╬════════════════════╣
 ║     Acces to a big collection of Bash, Shell and         ║  Design and Layout ║
 ║                   phyton scripts!                        ║    by Mr.Matoi     ║
