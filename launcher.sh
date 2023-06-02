@@ -19,7 +19,7 @@ echo -e "$Cyan
 ║══════════════════════════════════════════════════════════╬════════════════════╣
 ║     Acces to a big collection of Bash, Shell and         ║     ▬▬ι═══════ﺤ    ║
 ║                   phyton scripts!                        ║                    ║
-║         Please report not working links in "Issues"      ╠════════════════════╣               
+║         Please report not working links in Issues        ╠════════════════════╣               
 ║                  github.com/drmatoi/matoi                ║     Version 1.0    ║
 ╚══════════════════════════════════════════════════════════╩════════════════════╩
 
