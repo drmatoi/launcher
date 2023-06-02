@@ -15,10 +15,10 @@ sleep 5.0
 clear
 echo -e "$Cyan 
 ╔══════════════════════════════════════════════════════════╦════════════════════╗
-║     Visti drmatoi.github.io  - t.me/moddingtool          ║   By Mr.Matoi      ║  
+║     Visti drmatoi.github.io  - t.me/moddingtool          ║   $Purple By Mr.Matoi     ║  
 ║══════════════════════════════════════════════════════════╬════════════════════╣
-║     Acces to a big collection of Bash, Shell and         ║     ▬▬ι═══════ﺤ    ║
-║                   phyton scripts!                        ║                    ║
+║     Acces to a big collection of Bash, Shell and         ║  Design and Layout ║
+║                   phyton scripts!                        ║    by Mr.Matoi     ║
 ║         Please report not working links in Issues        ╠════════════════════╣               
 ║                  github.com/drmatoi/matoi                ║     Version 1.0    ║
 ╠══════════════════════════════════════════════════════════╬════════════════════╣
