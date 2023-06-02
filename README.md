@@ -1,6 +1,8 @@
-# M4t01 Launcher - Version 1.0
-Access to all tools and skripts made by Matoi and over 380+ other tools!
+# Termux Tool Collection  - Mr.Matoi
+Access to all tools made by Matoi and over 400+ other tools!
 All in one skript with auto-install for all things you need!
+<br>
+At the moment it is still under development, please wait until it is ready for real use! 
 ## INSTALLATION [Termux]
 
 * `apt update`
