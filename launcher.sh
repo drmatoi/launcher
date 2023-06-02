@@ -22,7 +22,7 @@ echo -e "$Cyan
 ║         Please report not working links in Issues        ╠════════════════════╣               
 ║                  github.com/drmatoi/matoi                ║     Version 1.0    ║
 ╠══════════════════════════════════════════════════════════╬════════════════════╣
-║  $Red𝞖𝞢𝙇𝞠$Cyan - You can also always check on github / instagram  ║$Yellow 222 - Update Tool$Cyan║
+║  $Red𝞖𝞢𝙇𝞠$Cyan - You can also always check on github / instagram  ║$Yellow 222 - Update Tool$Cyan    ║
 ╚══════════════════════════════════════════════════════════╩════════════════════╩
 
 
