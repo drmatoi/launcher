@@ -1,4 +1,4 @@
- #!/bin/bash
+#!/bin/bash
 
 # colour 
 Black="\033[1;30m"       # Black
@@ -10,23 +10,35 @@ Purple="\033[1;35m"      # Purple
 Cyan="\033[1;36m"        # Cyan
 White="\033[1;37m"       # White
 clear 
-echo -e "$Red Welcome to Dr.Matoi´s Collection. \033[1;31m"
+echo -e "
+╔══════════════════════════════════════════════════════════════════════════════╗
+ oooooo   oooooo     oooo oooooooooooo   .oooooo.   ooooooooo.   oooooo   oooo 
+  `888.    `888.     .8'  `888'     `8  d8P'  `Y8b  `888   `Y88.  `888.   .8'  
+   `888.   .8888.   .8'    888         888           888   .d88'   `888. .8'   
+    `888  .8'`888. .8'     888oooo8    888           888ooo88P'     `888.8'    
+     `888.8'  `888.8'      888    "    888           888`88b.        `888'     
+      `888'    `888'       888       o `88b    ooo   888  `88b.       888      
+       `8'      `8'       o888ooooood8  `Y8bood8P'  o888o  o888o     o888o     
+\033[1;31m"
 sleep 5.0
-clear
-echo -e "$Cyan 
+                                                                              
+echo -e " 
+═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+
 ╔══════════════════════════════════════════════════════════╦════════════════════╗
-║     Visti drmatoi.github.io  - t.me/moddingtool          ║   $Purple By Mr.Matoi$Cyan     ║  
+║     Visti drmatoi.github.io  - t.me/drmatoi          ║   $Purple By Mr.Matoi$Cyan     ║  
 ║══════════════════════════════════════════════════════════╬════════════════════╣
 ║     Acces to a big collection of Bash, Shell and         ║  Design and Layout ║
-║                   phyton scripts!                        ║    by Mr.Matoi     ║
+║                   phyton scripts!                        ║    by Dr.Matoi     ║
 ║         Please report not working links in Issues        ╠════════════════════╣               
-║                  github.com/drmatoi/matoi                ║     Version 1.0    ║
+║                  drmatoi.github.io                       ║     Version 1.0    ║
 ╠══════════════════════════════════════════════════════════╬════════════════════╣
 ║  $Red𝞖𝞢𝙇𝞠$Cyan - You can also always check on github / instagram  ║$Yellow 222 - Update Tool$Cyan  ║
 ╠═══════════════════════╦══════════════════════════════════╩════════════════════╣
 ║  See my Socials - 111 ║ Back to $Green Termux Home - $Cyan 333      ║ GitHub README - 000║
 ╠═══════════════════════════════════════════════════════════════════════════════╣
 
+    (1) ZPhisher (2)Venom (3)                                                                         
 
 
 
@@ -158,15 +170,28 @@ Instagram: @wecrywiki
 
         exit
 
-elif [ $ch -eq 9 ];then
+elif [ $ch -eq 2 ];then
         cd instahacks
         bash venom.sh
   
 
         exit
+
+        elif [ $ch -eq 1 ];then
+        pkg install tur-repo
+        install zphisher
+        zpisher
+
+        exit
+
+         elif [ $ch -eq 3 ];then
+        pkg install nmap -y
+        nmap Scanme.nmap.org
+
+        exit
         
     else
-        echo -e "\e[4;32m Invalid Input !!! \e[0m"
+        echo -e "\e[4;32m Invalid Input  !!!  - WECRY (drmatoi.github.io) \e[0m"
         pause
     fi
 done
