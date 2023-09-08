@@ -18,15 +18,17 @@ At the moment it is still under development, please wait until it is ready for r
 * `bash launcher.sh`
 
 ## INSTALLATION [Kali Linux]
-sudo apt install python
-sudo apt install python2
-sudo apt install git
-git clone https://github.com/drmatoi/launcher
-ls
-cd launcher
-pip3 install -r requirements.txt
-chmod +x *
-sudo bash launcher.sh
+* `apt update`
+* `apt upgrade`
+* `pkg install python`
+* `pkg install python2`
+* `pkg install git`
+* `git clone https://github.com/drmatoi/launcher`
+* `ls`
+* `pip3 install -r requirements.txt`
+* `chmod +x *`
+* `cd launcher`
+* `bash launcher.sh`
 
 ## Need to Update/Reset the Tool.
 type
