@@ -201,6 +201,15 @@ msfconsole
         
 
         exit
+elif [ $ch -eq 004 ];then
+          mkdir shellphish  
+          Git clone https://github.com/jaykali/shellphish  
+          Cd shellphish && ls  
+Chmod +x shellphish.sh  
+./shellphish.sh  
+
+        exit
+        
         # FALSCHER INPUT COMMAND!
     else
         echo -e "\e[4;32m Invalid Input  !!!  - MATOI (drmatoi.github.io) $Red [WAIT 4 SECONDS!] \e[0m"
