@@ -13,7 +13,7 @@ clear
 echo -e "A TOOL MADE BY $Yellow MR.MATOI [t.me/drmatoi] $Purple VERSION 1.2 \033[1;31m"
 
 echo -e " 
-═══════════════════ L O A D IN G ═══════════════════ \033[1;36m"
+═══════════════════ L O A D I N G ═══════════════════ \033[1;36m"
 sleep 3.0
 clear                                                                              
 
