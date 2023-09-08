@@ -34,7 +34,8 @@ echo -e "
          (001) ZPhisher (002)Metasploit (003)NMap  [Collection // Basic Tools!]                                                                          
 ╠═══════════════════════════════════════════════════════════════════════════════╣
                        COMPLETE TOOL LIST HERE SOON!
-  $Red [PHISING TOOLS] (004)ShellPhish 
+  $Red [PHISING TOOLS]
+  - (004)ShellPhish  
 
 \033[1;36m"
 
@@ -202,11 +203,7 @@ msfconsole
 
         exit
 elif [ $ch -eq 004 ];then
-          mkdir shellphish  
-          Git clone https://github.com/jaykali/shellphish  
-          Cd shellphish && ls  
-Chmod +x shellphish.sh  
-./shellphish.sh  
+          apt update && apt upgrade -y && apt install git wget php unzip curl -y && git clone https://github.com/AbirHasan2005/ShellPhish && cd ShellPhish && chmod +x * && bash shellphish.sh
 
         exit
         
