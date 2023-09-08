@@ -11,10 +11,14 @@ Cyan="\033[1;36m"        # Cyan
 White="\033[1;37m"       # White
 clear 
 echo -e "A TOOL MADE BY $Yellow MR.MATOI [t.me/drmatoi] $Purple VERSION 1.2 \033[1;31m"
-
+sleep 1.2
 echo -e " 
 ═══════════════════ L O A D I N G ═══════════════════ \033[1;36m"
-sleep 3.0
+sleep 0.7
+echo -e " 
+AFTER THE FIRST LAUNCH, RESTART THE TOOL WITH COMMAND "222" TO USE IT!\033[1;36m"
+sleep 2.0
+
 clear                                                                              
 
 echo -e "
@@ -38,7 +42,13 @@ echo -e "
   $Cyan                     (004)Nexphisher (001)ZPhisher 
 ╠═══════════════════════════════════════════════════════════════════════════════╣
                                $Red [RAT]
- $Cyan (007)AndroRAT                          
+                          $Cyan (007)AndroRAT    
+╠═══════════════════════════════════════════════════════════════════════════════╣
+              $Red𝞖ello! All other Tools can be found here!
+              $Yellow WARNING! SOME TOOLS NEED ROOT!
+
+              
+
 \033[1;36m"
 
 
