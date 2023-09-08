@@ -131,19 +131,17 @@ Collection by m4t01 / Mr.Matoi:
 
 Need to Update/Reset the Tool.
 
-type
+type 222
 
-rm -rf instahacks
-git clone https://github.com/drmatoi/instahackscd instahacks
-bash insta-hack.sh
 
-I will add this to the bash script soon!
+
+
 -----------------------------------------
 
-Warning:This tool is only for educational purpose. If you use this tool for other purposes except education we will not be responsible in such cases.
+ $Red Warning:This tool is only for educational purpose. If you use this tool for other purposes except education we will not be responsible in such cases. $Cyan
 -----------------------------------------
 
-Socials:
+$Yellow Socials: $Cyan
 Instagram: @wecrywiki
  Telegram: @drmatoi \e[1;36m"
 
