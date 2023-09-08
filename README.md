@@ -1,5 +1,5 @@
 # Tool Collection for Termux and Linux  - Mr.Matoi
-Access to all tools made by Matoi and over 400+ other tools!
+Access to all standart linux tools and over 400+ other tools!
 All in one skript with auto-install for all things you need!
 <br>
 # [WARNING!!!] 
