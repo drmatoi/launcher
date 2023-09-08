@@ -52,6 +52,7 @@ echo -e "
 
     
     elif [ $ch -eq 333 ];then
+        clear
         cd $HOME
 
         exit
