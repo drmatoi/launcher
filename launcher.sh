@@ -140,12 +140,12 @@ INSTALLATION [Kali Linux]
 sudo apt install python
 sudo apt install python2
 sudo apt install git
-git clone https://github.com/drmatoi/instahacks
+git clone https://github.com/drmatoi/launcher
 ls
-cd instahacks
+cd launcher
 pip3 install -r requirements.txt
 chmod +x *
-sudo bash insta-hack.sh
+sudo bash launcher.sh
 --------------------------------
 Collection by m4t01 / Mr.Matoi:
 --------------------------------
