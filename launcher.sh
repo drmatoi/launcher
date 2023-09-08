@@ -31,7 +31,7 @@ echo -e "
 ║  See my Socials - 111 ║ Back to $Green  Home       - $Cyan 333      ║ GitHub README - 000║
 ╠═══════════════════════════════════════════════════════════════════════════════╣
                                 $White BASIC TOOLS $Cyan 
-         (001) ZPhisher (002)Venom (003)NMap  [Collection // Basic Tools!]                                                                          
+         (001) ZPhisher (002)Metasploit (003)NMap  [Collection // Basic Tools!]                                                                          
 ╠═══════════════════════════════════════════════════════════════════════════════╣
                        COMPLETE TOOL LIST HERE SOON!
 
@@ -160,25 +160,28 @@ Instagram: @wecrywiki
 
 # ANFANG VON TOOL / STANDART TOOL!
 elif [ $ch -eq 002 ];then
-        cd instahacks
-        bash venom.sh
+         pkg install wget
+ wget https://raw.githubusercontent.com/gushmazuko/metasploit_in_termux/master/metasploit.sh$ chmod +x metasploit.sh
+ ./metasploit.sh
+ metasploit
   
 
         exit
 
         elif [ $ch -eq 001 ];then
-        pkg install tur-repo
-        install zphisher
-        zpisher
-
+        apt install git php openssh curl wget -y
+        git clone https://github.com/htr-tech/zphisher
+        cd zphisher
+        chmod +x zphisher.sh
+        bash zphisher.sh
         exit
 
-         e
+         
 
 
          elif [ $ch -eq 003 ];then
         pkg install nmap -y
-        nmap Scanme.nmap.org
+        
 
         exit
         # FALSCHER INPUT COMMAND!
