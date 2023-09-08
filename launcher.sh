@@ -35,7 +35,7 @@ echo -e "
 ╠═══════════════════════════════════════════════════════════════════════════════╣
                        
   $Red                        [PHISING TOOLS]
-  $Cyan         (004)Nexphisher (001)ZPhisher (006) BlackPhish 
+  $Cyan                     (004)Nexphisher (001)ZPhisher 
 ╠═══════════════════════════════════════════════════════════════════════════════╣
                                $Red [RAT]
  $Cyan (007)AndroRAT                          
@@ -224,12 +224,7 @@ clear
 
         exit
 
-        elif [ $ch -eq 006 ];then
-git clone https://github.com/iinc0gnit0/Blackphish  
-Cd Blackphish   
-Sudo python3 blackphish.py  
-
-        exit
+       
 
       
         
