@@ -35,7 +35,7 @@ echo -e "
 ╠═══════════════════════════════════════════════════════════════════════════════╣
                        COMPLETE TOOL LIST HERE SOON!
   $Red                         [PHISING TOOLS]
-  $Cyan (004)Blackeye 
+  $Cyan (004)King-Phisher
 
 \033[1;36m"
 
@@ -203,10 +203,10 @@ msfconsole
 
         exit
 elif [ $ch -eq 004 ];then
-          Git clone https://gtihub.com.thelinuxchoice/blackeye  
-            Cd blackeye  
-             Ls  
-             bash blackeye.sh  
+         mkdir king-phisher  
+cd king-phisher  
+wget -q https://github.com/securestate/king-phihser/raw/master/tools/install.sh  
+sudo bash .install.sh    
 
         exit
         
