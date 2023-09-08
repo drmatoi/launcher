@@ -18,10 +18,12 @@ echo -e "
     `888  .8'`888. .8'     888oooo8    888           888ooo88P'     `888.8'    
      `888.8'  `888.8'      888    "    888           888`88b.        `888'     
       `888'    `888'       888       o `88b    ooo   888  `88b.       888      
-       `8'      `8'       o888ooooood8  `Y8bood8P'  o888o  o888o     o888o     
+       `8'      `8'       o888ooooood8  `Y8bood8P'  o888o  o888o     o888o
+
+       A TOOL MADE BY MR.MATOI [t.me/drmatoi]
 \033[1;31m"
 sleep 5.0
-                                                                              
+clear                                                                              
 echo -e " 
 ═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
 
@@ -35,12 +37,12 @@ echo -e "
 ╠══════════════════════════════════════════════════════════╬════════════════════╣
 ║  $Red𝞖𝞢𝙇𝞠$Cyan - You can also always check on github / instagram  ║$Yellow 222 - Update Tool$Cyan  ║
 ╠═══════════════════════╦══════════════════════════════════╩════════════════════╣
-║  See my Socials - 111 ║ Back to $Green Termux Home - $Cyan 333      ║ GitHub README - 000║
+║  See my Socials - 111 ║ Back to $Green  Home       - $Cyan 333      ║ GitHub README - 000║
 ╠═══════════════════════════════════════════════════════════════════════════════╣
-
-    (1) ZPhisher (2)Venom (3)                                                                         
-
-
+BASIC TOOLS 
+    (1) ZPhisher (2)Venom (3)NMap  [Collection // Basic Tools!]                                                                          
+╠═══════════════════════════════════════════════════════════════════════════════╣
+COMPLETE TOOL LIST HERE SOON!
 
 
 \033[1;36m"
@@ -94,14 +96,15 @@ echo -e "\e[1;34m Libary: t.me/wecrywiki"
         
         exit
    elif [ $ch -eq 000 ];then
-        echo -e "$Cyan This Is an all in one hacking tool/collection for Instagram and other Social Medias like Youtube,WhatsApp & Co. The complete collection layout is based on https://github.com/IncredibleHacker/insta-hack. This Tool also links to other GitHub Users. Full Credits to them :) ,
+        echo -e "$Cyan This Is an all in one hacking tool/collection for Instagram and other Social Medias like Youtube,WhatsApp & Co. This Tool also links to other GitHub Users. Full Credits to them :) ,
 
 Features:
-Insta information gathering
-Insta brute force attack
-Insta auto repoter
-Remove script
-WeCry Telegram List
+║     Acces to a big collection of Bash, Shell and         ║  Design and Layout ║
+║                   phyton scripts!                        ║    by Dr.Matoi     ║
+║         Please report not working links in Issues        ╠════════════════════╣               
+║                  drmatoi.github.io                       ║     Version 1.0    ║
+
+
 ---------------
 Requirements
 Data connection
@@ -184,6 +187,19 @@ elif [ $ch -eq 2 ];then
 
         exit
 
+         elif [ $ch -eq 111 ];then
+        echo -e "\e[4;32m 
+        
+        Instagram @wecrywiki
+        GitHub @drmatoi
+        Telegram @drmatoi
+        Website : drmatoi.github.io
+        
+        \e[0m"
+         cd $HOME
+        exit
+
+
          elif [ $ch -eq 3 ];then
         pkg install nmap -y
         nmap Scanme.nmap.org
@@ -191,7 +207,7 @@ elif [ $ch -eq 2 ];then
         exit
         
     else
-        echo -e "\e[4;32m Invalid Input  !!!  - WECRY (drmatoi.github.io) \e[0m"
+        echo -e "\e[4;32m Invalid Input  !!!  - MATOI (drmatoi.github.io) \e[0m"
         pause
     fi
 done
