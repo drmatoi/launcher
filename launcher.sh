@@ -10,10 +10,7 @@ Purple="\033[1;35m"      # Purple
 Cyan="\033[1;36m"        # Cyan
 White="\033[1;37m"       # White
 clear 
-echo -e "
-
-       A TOOL MADE BY MR.MATOI [t.me/drmatoi]
-\033[1;31m"
+echo -e "A TOOL MADE BY MR.MATOI [t.me/drmatoi] \033[1;31m"
 sleep 5.0
 clear                                                                              
 echo -e " 
@@ -51,20 +48,9 @@ echo " "
 
         exit
     
-    elif [ $ch -eq 123 ];then
-        git clone https://github.com/drmatoi/instahacks
-        cd instahacks
-        pip install -r requirements.txt
-        bash setup.sh
+    
 
-        exit
-
-    elif [ $ch -eq 0000 ];then 
-         git clone https://github.com/drmatoi/instahacks 
-         cd instahacks 
-         bash start.sh 
-  
-         exit
+    
     elif [ $ch -eq 333 ];then
         cd $HOME
 
@@ -74,6 +60,7 @@ echo " "
 echo -e "\e[1;34m Telegram: t.me/drmatoi"
 echo -e "\e[1;34m Website : drmatoi.github.io"
 sleep 6.0
+
  rm -rf launcher
         git clone https://github.com/drmatoi/launcher
         cd launcher
@@ -82,7 +69,7 @@ sleep 6.0
 
         exit
    
-        clear
+
         
         exit
    elif [ $ch -eq 000 ];then
