@@ -34,7 +34,7 @@ echo -e "
          (001) ZPhisher (002)Metasploit (003)NMap  [Collection // Basic Tools!]                                                                          
 ╠═══════════════════════════════════════════════════════════════════════════════╣
                        COMPLETE TOOL LIST HERE SOON!
-
+  $Red [PHISING TOOLS] (004)ShellPhish 
 
 \033[1;36m"
 
