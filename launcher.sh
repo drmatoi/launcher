@@ -29,7 +29,7 @@ echo -e "
 ╠═══════════════════════╦══════════════════════════════════╩════════════════════╣
 ║  See my Socials - 111 ║ Back to $Green  Home       - $Cyan 333      ║ GitHub README - 000║
 ╠═══════════════════════════════════════════════════════════════════════════════╣
-                                $White BASIC TOOLS 
+                                $White BASIC TOOLS $Cyan 
          (001) ZPhisher (002)Venom (003)NMap  [Collection // Basic Tools!]                                                                          
 ╠═══════════════════════════════════════════════════════════════════════════════╣
                        COMPLETE TOOL LIST HERE SOON!
