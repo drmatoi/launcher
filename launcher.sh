@@ -11,6 +11,7 @@ Cyan="\033[1;36m"        # Cyan
 White="\033[1;37m"       # White
 clear 
 echo -e "A TOOL MADE BY $Yellow MR.MATOI [t.me/drmatoi] $Purple VERSION 1.2 \033[1;31m"
+echo -e '\e]8;;https//drmatoi.github.io\aMY WEBSITEk\e]8;;\a'
 echo -e " 
 ═══════════════════ L O A D IN G ═══════════════════ \033[1;36m"
 sleep 3.0
@@ -18,7 +19,7 @@ clear
 
 echo -e "
 ╔══════════════════════════════════════════════════════════╦════════════════════╗
-║     Visti echo -e '\e]8;;https//drmatoi.github.io\a drmatoi.github.io\e]8;;\a'  - t.me/drmatoi              ║   $Purple By Mr.Matoi$Cyan     ║  
+║     Visti drmatoi.github.io  - t.me/drmatoi              ║   $Purple By Mr.Matoi$Cyan     ║  
 ║══════════════════════════════════════════════════════════╬════════════════════╣
 ║     Acces to a big collection of Bash, Shell and         ║  Design and Layout ║
 ║                   phyton scripts!                        ║    by Dr.Matoi     ║
