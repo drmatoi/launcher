@@ -11,11 +11,11 @@ Cyan="\033[1;36m"        # Cyan
 White="\033[1;37m"       # White
 clear 
 echo -e "A TOOL MADE BY MR.MATOI [t.me/drmatoi] VERSION 1.2 \033[1;31m"
+echo -e " 
+═══════════════════ L O A D IN G ═══════════════════ \033[1;36m"
 sleep 3.0
 clear                                                                              
-echo -e " 
-══════════════════════════════════════════════════════════════════════════════════ \033[1;36m"
-clear
+
 echo -e "
 ╔══════════════════════════════════════════════════════════╦════════════════════╗
 ║     Visti drmatoi.github.io  - t.me/drmatoi              ║   $Purple By Mr.Matoi$Cyan     ║  
@@ -29,10 +29,10 @@ echo -e "
 ╠═══════════════════════╦══════════════════════════════════╩════════════════════╣
 ║  See my Socials - 111 ║ Back to $Green  Home       - $Cyan 333      ║ GitHub README - 000║
 ╠═══════════════════════════════════════════════════════════════════════════════╣
-                 BASIC TOOLS 
-    (001) ZPhisher (002)Venom (003)NMap  [Collection // Basic Tools!]                                                                          
+                               BASIC TOOLS 
+         (001) ZPhisher (002)Venom (003)NMap  [Collection // Basic Tools!]                                                                          
 ╠═══════════════════════════════════════════════════════════════════════════════╣
-          COMPLETE TOOL LIST HERE SOON!
+                       COMPLETE TOOL LIST HERE SOON!
 
 
 \033[1;36m"
