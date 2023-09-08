@@ -156,6 +156,7 @@ Instagram: @wecrywiki
 
         exit
 
+# ANFANG VON TOOL / STANDART TOOL!
 elif [ $ch -eq 002 ];then
         cd instahacks
         bash venom.sh
@@ -178,7 +179,7 @@ elif [ $ch -eq 002 ];then
         nmap Scanme.nmap.org
 
         exit
-        
+        # FALSCHER INPUT COMMAND!
     else
         echo -e "\e[4;32m Invalid Input  !!!  - MATOI (drmatoi.github.io) [WAIT 4 SECONDS!] \e[0m"
         pause
