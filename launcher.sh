@@ -17,7 +17,7 @@ echo -e "
 sleep 0.7
 echo -e " 
  AFTER THE $Red FIRST LAUNCH, $Yellow RESTART $Cyan THE TOOL WITH $Red COMMAND "222" $Cyan TO USE IT!\033[1;36m"
-sleep 2.0
+sleep 4.0
 
 clear                                                                              
 
