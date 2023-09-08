@@ -37,7 +37,7 @@ echo -e "
 
 \033[1;36m"
 
-echo " "
+
 
   read ch
    if [ $ch -eq 222 ];then
