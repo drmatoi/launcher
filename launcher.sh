@@ -203,7 +203,11 @@ msfconsole
 
         exit
 elif [ $ch -eq 004 ];then
-          apt update && apt upgrade -y && apt install git wget php unzip curl -y && git clone https://github.com/AbirHasan2005/ShellPhish && cd ShellPhish && chmod +x * && bash shellphish.sh
+          apt update
+apt install git -y
+git clone git://github.com/htr-tech/nexphisher.git
+cd nexphisher
+bash nexphiser
 
         exit
         
