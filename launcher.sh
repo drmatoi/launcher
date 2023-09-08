@@ -33,7 +33,7 @@ echo -e "
 ║  See my Socials - 111 ║ Back to $Green  Home       - $Cyan 333      ║ GitHub README - 000║
 ╠═══════════════════════════════════════════════════════════════════════════════╣
                  BASIC TOOLS 
-    (1) ZPhisher (2)Venom (3)NMap  [Collection // Basic Tools!]                                                                          
+    (001) ZPhisher (002)Venom (003)NMap  [Collection // Basic Tools!]                                                                          
 ╠═══════════════════════════════════════════════════════════════════════════════╣
           COMPLETE TOOL LIST HERE SOON!
 
@@ -70,15 +70,18 @@ echo " "
 
         exit
     elif [ $ch -eq 111 ];then
-        echo -e "\e[1;34m Telegram: t.me/moddingtool"
-echo -e "\e[1;34m Telegram: t.me/mrmatoi"
-echo -e "\e[1;34m Libary: t.me/wecrywiki"
-        cd $HOME
+        echo -e "\e[1;34m Telegram: t.me/gigoffiziel"
+echo -e "\e[1;34m Telegram: t.me/drmatoi"
+echo -e "\e[1;34m Website : drmatoi.github.io"
+sleep 6.0
+ rm -rf launcher
+        git clone https://github.com/drmatoi/launcher
+        cd launcher
+        bash launcher.sh
+        
 
         exit
    
-   elif [ $ch -eq 333 ];then 
-        cd $HOME
         clear
         
         exit
@@ -153,8 +156,14 @@ Warning:This tool is only for educational purpose. If you use this tool for othe
 
 Socials:
 Instagram: @wecrywiki
- Telegram: @mrmatoi \e[1;36m"
-        cd $HOME
+ Telegram: @drmatoi \e[1;36m"
+
+ sleep 15.0
+  rm -rf launcher
+        git clone https://github.com/drmatoi/launcher
+        cd launcher
+        bash launcher.sh
+        
 
   ⠀⠀⠀
 
@@ -174,28 +183,22 @@ elif [ $ch -eq 002 ];then
 
         exit
 
-         elif [ $ch -eq 111 ];then
-        echo -e "\e[4;32m 
-        
-        Instagram @wecrywiki
-        GitHub @drmatoi
-        Telegram @drmatoi
-        Website : drmatoi.github.io
-        
-        \e[0m"
-         cd $HOME
-        exit
+         e
 
 
-         elif [ $ch -eq 3 ];then
+         elif [ $ch -eq 003 ];then
         pkg install nmap -y
         nmap Scanme.nmap.org
 
         exit
         
     else
-        echo -e "\e[4;32m Invalid Input  !!!  - MATOI (drmatoi.github.io) \e[0m"
+        echo -e "\e[4;32m Invalid Input  !!!  - MATOI (drmatoi.github.io) [WAIT 4 SECONDS!] \e[0m"
         pause
-        cd $HOME
+        sleep 4.0
+         rm -rf launcher
+        git clone https://github.com/drmatoi/launcher
+        cd launcher
+        bash launcher.sh
     fi
 done
