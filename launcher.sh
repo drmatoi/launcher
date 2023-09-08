@@ -35,7 +35,7 @@ echo -e "
 ╠═══════════════════════════════════════════════════════════════════════════════╣
                        COMPLETE TOOL LIST HERE SOON!
   $Red                         [PHISING TOOLS]
-  $Cyan (004)ShellPhish  
+  $Cyan (004)Blackeye 
 
 \033[1;36m"
 
@@ -203,11 +203,10 @@ msfconsole
 
         exit
 elif [ $ch -eq 004 ];then
-          apt update
-apt install git -y
-git clone git://github.com/htr-tech/nexphisher.git
-cd nexphisher
-bash nexphiser
+          Git clone https://gtihub.com.thelinuxchoice/blackeye  
+            Cd blackeye  
+             Ls  
+             bash blackeye.sh  
 
         exit
         
