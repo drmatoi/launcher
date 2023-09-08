@@ -35,7 +35,7 @@ echo -e "
 ╠═══════════════════════════════════════════════════════════════════════════════╣
                        
   $Red                        [PHISING TOOLS]
-  $Cyan   (004)Nexphisher (001)ZPhisher (006) BlackPhish (008) SocialPhish
+  $Cyan         (004)Nexphisher (001)ZPhisher (006) BlackPhish 
 ╠═══════════════════════════════════════════════════════════════════════════════╣
                                $Red [RAT]
  $Cyan (007)AndroRAT                          
@@ -226,20 +226,12 @@ clear
 
         elif [ $ch -eq 006 ];then
 git clone https://github.com/iinc0gnit0/Blackphish  
-Cd Blackphish  
-./install.sh  
+Cd Blackphish   
 Sudo python3 blackphish.py  
 
         exit
 
-        elif [ $ch -eq 008 ];then
- 
-Git clone https://github.com/xHak9x/SocialPhsih.git  
-Cd SocialPhish   
-chmod +x socialphish.sh  
-./socialphish.sh  
-
-        exit
+      
         
         
         # FALSCHER INPUT COMMAND!
