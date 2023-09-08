@@ -47,8 +47,8 @@ echo -e "
                           $Cyan (007)AndroRAT    
 ╠═══════════════════════════════════════════════════════════════════════════════╣
                 $Red𝞖ello! All other Tools can be found here!
-                   $Yellow WARNING! SOME TOOLS NEED ROOT!
-                 (101)SocialBox (102)Infect (103) IPDrone
+                   $Orange WARNING! SOME TOOLS NEED ROOT!
+                 $Cyan(101)SocialBox (102)Infect (103) IPDrone
                  $Red MORE TOOLS SOON!  $Purple VERION 1.2
               
 
