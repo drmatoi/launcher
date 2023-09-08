@@ -184,7 +184,6 @@ msfconsole
 
 
          elif [ $ch -eq 003 ];then
-         apt update && apt upgrade -y
           
           pkg install nmap -y
 
