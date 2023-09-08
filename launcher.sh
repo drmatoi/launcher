@@ -163,7 +163,7 @@ elif [ $ch -eq 002 ];then
          pkg install wget
  wget https://raw.githubusercontent.com/gushmazuko/metasploit_in_termux/master/metasploit.sh$ chmod +x metasploit.sh
  ./metasploit.sh
- metasploit
+  $ metasploit
   
 
         exit
