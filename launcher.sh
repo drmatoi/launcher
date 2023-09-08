@@ -33,10 +33,12 @@ echo -e "
                                 $White BASIC TOOLS $Cyan 
          (001) ZPhisher (002)Metasploit (003)NMap  [Collection // Basic Tools!]                                                                          
 ╠═══════════════════════════════════════════════════════════════════════════════╣
-                       COMPLETE TOOL LIST HERE SOON!
-  $Red                         [PHISING TOOLS]
-  $Cyan (004)Nexphisher
-
+                       
+  $Red                        [PHISING TOOLS]
+  $Cyan   (004)Nexphisher (001)ZPhisher (006) BlackPhish (008) SocialPhish
+╠═══════════════════════════════════════════════════════════════════════════════╣
+                               $Red [RAT]
+ $Cyan (007)AndroRAT                          
 \033[1;36m"
 
 
@@ -211,6 +213,37 @@ bash setup
 bash nexphisher
 
         exit
+elif [ $ch -eq 007 ];then
+
+echo -e "Welcome to AndroRAT $RED COMMANDS ON https://github.com/karma9874/AndroRAT  \033[1;31m"
+sleep 3.0
+clear
+       git clone https://github.com/karma9874/AndroRAT.git
+  cd AndroRAT
+     pip install -r requirements.txt
+
+        exit
+
+        elif [ $ch -eq 006 ];then
+Git clone https://github.com/iinc0gnit0/Blackphish  
+Cd Blackphish  
+./install.sh  
+Sudo python3 blackphish.py  
+
+        exit
+
+        elif [ $ch -eq 008 ];then
+mkdir Socialphish  
+Cd Socialphish  
+Git clone https://github.com/xHak9x/SocialPhsih.git 
+Ls  
+Cd SocialPhish   
+Ls  
+chmod +x socialphish.sh  
+./socialphish.sh  
+
+        exit
+        
         
         # FALSCHER INPUT COMMAND!
     else
