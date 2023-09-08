@@ -186,7 +186,14 @@ msfconsole
 
 
          elif [ $ch -eq 003 ];then
-        pkg install nmap -y
+         apt update && apt upgrade -y
+          
+          pkg install nmap -y
+
+          clear
+
+          echo -e " NMAP INSTALLED!  $RED ENTER COMMANDS NOW! \033[1;31m"
+
         
 
         exit
