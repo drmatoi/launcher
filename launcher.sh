@@ -189,7 +189,14 @@ msfconsole
 
           clear
 
-          echo -e " NMAP INSTALLED!  $RED ENTER COMMANDS NOW! \033[1;31m"
+          echo -e " NMAP INSTALLED!  $RED ENTER COMMANDS NOW! THEY ALL START WITH [nmap] \033[1;31m"
+          sleep 5.0
+          clear
+          echo -e " DONE! $RED go back to the home menu ... \033[1;31m"
+           rm -rf launcher
+        git clone https://github.com/drmatoi/launcher
+        cd launcher
+        bash launcher.sh
 
         
 
