@@ -225,7 +225,7 @@ clear
         exit
 
         elif [ $ch -eq 006 ];then
-Git clone https://github.com/iinc0gnit0/Blackphish  
+git clone https://github.com/iinc0gnit0/Blackphish  
 Cd Blackphish  
 ./install.sh  
 Sudo python3 blackphish.py  
@@ -233,12 +233,9 @@ Sudo python3 blackphish.py
         exit
 
         elif [ $ch -eq 008 ];then
-mkdir Socialphish  
-Cd Socialphish  
-Git clone https://github.com/xHak9x/SocialPhsih.git 
-Ls  
+ 
+Git clone https://github.com/xHak9x/SocialPhsih.git  
 Cd SocialPhish   
-Ls  
 chmod +x socialphish.sh  
 ./socialphish.sh  
 
