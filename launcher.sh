@@ -11,21 +11,13 @@ Cyan="\033[1;36m"        # Cyan
 White="\033[1;37m"       # White
 clear 
 echo -e "
-╔══════════════════════════════════════════════════════════════════════════════╗
- oooooo   oooooo     oooo oooooooooooo   .oooooo.   ooooooooo.   oooooo   oooo 
-  `888.    `888.     .8'  `888'     `8  d8P'  `Y8b  `888   `Y88.  `888.   .8'  
-   `888.   .8888.   .8'    888         888           888   .d88'   `888. .8'   
-    `888  .8'`888. .8'     888oooo8    888           888ooo88P'     `888.8'    
-     `888.8'  `888.8'      888    "    888           888`88b.        `888'     
-      `888'    `888'       888       o `88b    ooo   888  `88b.       888      
-       `8'      `8'       o888ooooood8  `Y8bood8P'  o888o  o888o     o888o
 
        A TOOL MADE BY MR.MATOI [t.me/drmatoi]
 \033[1;31m"
 sleep 5.0
 clear                                                                              
 echo -e " 
-═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════ \033[1;36m"
+══════════════════════════════════════════════════════════════════════════════════ \033[1;36m"
 clear
 echo -e "
 ╔══════════════════════════════════════════════════════════╦════════════════════╗
@@ -73,7 +65,7 @@ echo " "
          bash start.sh 
   
          exit
-    elif [ $ch -eq 4 ];then
+    elif [ $ch -eq 333 ];then
         cd $HOME
 
         exit
@@ -84,13 +76,7 @@ echo -e "\e[1;34m Libary: t.me/wecrywiki"
         cd $HOME
 
         exit
-   elif [ $ch -eq 001 ];then
- rm -rf instahacks
-        git clone https://github.com/drmatoi/instahacks
-        cd instahacks
-        bash insta-hack.sh
-     
-        exit
+   
    elif [ $ch -eq 333 ];then 
         cd $HOME
         clear
@@ -174,14 +160,14 @@ Instagram: @wecrywiki
 
         exit
 
-elif [ $ch -eq 2 ];then
+elif [ $ch -eq 002 ];then
         cd instahacks
         bash venom.sh
   
 
         exit
 
-        elif [ $ch -eq 1 ];then
+        elif [ $ch -eq 001 ];then
         pkg install tur-repo
         install zphisher
         zpisher
@@ -210,5 +196,6 @@ elif [ $ch -eq 2 ];then
     else
         echo -e "\e[4;32m Invalid Input  !!!  - MATOI (drmatoi.github.io) \e[0m"
         pause
+        cd $HOME
     fi
 done
