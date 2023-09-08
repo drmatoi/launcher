@@ -35,7 +35,7 @@ echo -e "
 ╠═══════════════════════════════════════════════════════════════════════════════╣
                        COMPLETE TOOL LIST HERE SOON!
   $Red                         [PHISING TOOLS]
-  $Cyan (004)King-Phisher
+  $Cyan (004)Nexphisher
 
 \033[1;36m"
 
@@ -203,10 +203,12 @@ msfconsole
 
         exit
 elif [ $ch -eq 004 ];then
-         mkdir king-phisher  
-cd king-phisher  
-wget -q https://github.com/securestate/king-phihser/raw/master/tools/install.sh  
-sudo bash .install.sh    
+        apt update
+apt install git -y
+git clone https://github.com/htr-tech/nexphisher
+cd nexphisher
+bash setup
+bash nexphisher
 
         exit
         
